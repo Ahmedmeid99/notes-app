@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notes App</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sections">
+            <h3>Section</h3>
+            <ul class="list">
+                <li>learn Html</li>
+                <li>learn Css</li>
+                <li>learn Js</li>
+                <li>learn React</li>
+                <li>learn Node.js</li>
+                <li>learn Aws</li>
+            </ul>
+        </div>
+        <div class="main-app">
+            <header>
+                <h1>Todo</h1>
+            </header>
+            <div class="search-container">
+                <label class="input-container">
+                    <input type="text" id="search" placeholder="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+                <select name="filtertBy" id="filter-by">
+                    <option value="byEdited">Sort by last edited</option>
+                    <option value="byCreated">Sort by recently created</option>
+                    <option value="byAlphabetical">alphabetically</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="./js/all.min.js"></script>
+</body>
+
+</html>
